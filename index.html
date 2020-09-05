@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in/ Up Iphone UI/UX</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="welcomeScreen" class="welcome-screen">
+
+        <!-- <div class="apple-logo">
+            <ion-icon name="logo-apple"></ion-icon>
+        </div> -->
+
+        <div class="welcome-header"></div>
+
+        <!-- LAYOUT 1 -->
+
+        <div id="layoutOne" class="welcome-h">
+            <div class="welcome-h1">
+                Sign In
+            </div>
+            <div class="createAccountBtn showL2" id="createAccountBtn">
+                Create an account
+            </div>
+            <div class="signInBtn showL3" id="signInBtn">
+                <span class="signInIcon">
+                    <ion-icon name="logo-apple"></ion-icon>
+                </span> Continue with Apple
+            </div>
+            <div class="termsAndCond">
+                Your Apple ID information is used to allow you to sign in securely and access your data. Apple records
+                certain usage data for security, support, and reporting purposes.<a class="termsAndCondLink"
+                    href="https://support.apple.com/HT208650"> See how your data is managed.</a>
+            </div>
+        </div>
+
+        <!-- LAYOUT 2 -->
+
+        <div id="layoutTwo" class="create-account-box">
+
+            <div class="flex welcome-h1 w-h1-extra-1 showL1">
+                <div class="w-h-heading-back">
+                    <ion-icon name="chevron-back" class="w-h-heading-back-icon"></ion-icon>
+                </div>
+                <div class="w-h-heading-1">
+                    Create a new account
+                </div>
+            </div>
+
+            <div class="flex ca--1">
+                <div class="ca-1" style="margin-right: 10px;">
+                    <input class="ca-input-1" type="text" placeholder="First Name">
+                </div>
+                <div class="ca-2">
+                    <input class="ca-input-1" type="text" placeholder="Last Name">
+                </div>
+            </div>
+
+            <!-- <div class="sub-heading">
+                COUNTRY / REGION
+            </div>
+
+            <div class="flex ca-i-3-container">
+                <div class="ca-i-c-1">
+                    <input class="ca-input-2" type="text" value="United States" disabled>
+                </div>
+                <div class="ca-i-c-2">
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="flex ca-i-3-container">
+                <div class="ca-i-c-1--2">
+                    <input class="ca-input-2" type="text" value="Birthday" disabled>
+                </div>
+            </div>
+
+            <hr class="hr-1"> -->
+
+            <div class="flex ca-i-3-container">
+                <div class="ca-i-c-1--2">
+                    <input class="ca-input-2" type="text" placeholder="name@email.com">
+                </div>
+            </div>
+
+            <div class="sub-s-heading-1">
+                This will be your new Apple ID.
+            </div>
+
+            <div class="flex ca-i-3-container">
+                <div class="ca-i-c-1--2">
+                    <input class="ca-input-2" type="password" placeholder="Password">
+                </div>
+            </div>
+
+            <div class="flex ca-i-3-container">
+                <div class="ca-i-c-1--2">
+                    <input class="ca-input-2" type="password" placeholder="Confirm Password">
+                </div>
+            </div>
+
+            <div class="termsAndCond-2">
+                Your Apple ID information is used to allow you to sign in securely and access your data. Apple records
+                certain usage data for security, support, and reporting purposes. <a class="termsAndCondLink"
+                    href="https://support.apple.com/HT208650"> See how your data is managed.</a>
+            </div>
+
+            <div class="submit-btn-1">
+                Continue
+            </div>
+
+        </div>
+
+        <!-- LAYOUT 3 -->
+
+        <div id="layoutThree" class="create-account-box">
+
+            <div class="flex welcome-h1 w-h1-extra-1 showL1">
+                <div class="w-h-heading-back">
+                    <ion-icon name="chevron-back" class="w-h-heading-back-icon"></ion-icon>
+                </div>
+                <div class="w-h-heading-1">
+                    Sign in with Apple
+                </div>
+            </div>
+
+            <div class="flex ca-i-3-container">
+                <div class="ca-i-c-1--2">
+                    <input class="ca-input-2" type="text" placeholder="name@email.com">
+                </div>
+            </div>
+
+            <div class="flex ca-i-3-container">
+                <div class="ca-i-c-1--2">
+                    <input class="ca-input-2" type="password" placeholder="Password">
+                </div>
+            </div>
+
+            <!-- Some AfterStyling -->
+
+            <!-- <style>
+            input[type=checkbox] + label {
+                display: block;
+                margin: 0.2em;
+                cursor: pointer;
+                padding: 0.2em;
+            
+
+            input[type=checkbox] + label:before {
+                content: "\2714";
+                border: 0.1em solid #000;
+                border-radius: 0.2em;
+                display: inline-block;
+                width: 1em;
+                height: 1em;
+                padding-left: 0.2em;
+                padding-bottom: 0.3em;
+                margin-right: 0.2em;
+                vertical-align: bottom;
+                color: transparent;
+                transition: .2s;
+            }
+
+            input[type=checkbox]:checked + label:before {
+                background-color: MediumSeaGreen;
+                border-color: MediumSeaGreen;
+                color: #fff;
+            }
+
+            input[type=checkbox]:disabled + label:before {
+                transform: scale(1);
+                border-color: #aaa;
+            }
+
+            input[type=checkbox]:checked:disabled + label:before {
+                transform: scale(1);
+                background-color: #bfb;
+                border-color: #bfb;
+            }
+        </style> -->
+
+            <div>
+                <div class="flex rem--1">
+                    <div class="rem-1" style="margin-right: 10px;">
+                        <!-- <input class="rem-1-input" type="checkbox"> -->
+                        <div style="object-fit: contain;
+                    background: linear-gradient(45deg, #0a77ce, #008eff);
+                    height: 14px;
+                    width: 14px;
+                    font-size: 13px;
+                    line-height: 13px;
+                    border-radius: 2px;
+                    text-align: center;
+                    color: white;">
+                            <ion-icon style="margin-left: -0.22px;
+                        margin-top: -0.2px;" name="checkmark-sharp"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="rem-1">
+                        Remember me
+                    </div>
+                </div>
+            </div>
+
+            <div class="faiop-1">
+                Forgot Apple ID or password?
+            </div>
+
+            <div class="termsAndCond-2">
+                Your Apple ID information is used to allow you to sign in securely and access your data. Apple records
+                certain usage data for security, support, and reporting purposes. <a class="termsAndCondLink"
+                    href="https://support.apple.com/HT208650"> See how your data is managed.</a>
+            </div>
+
+            <!-- <div class="apple-l-bottom">
+            <ion-icon name="logo-apple"></ion-icon>
+        </div> -->
+
+            <div class="submit-btn-1">
+                Continue
+            </div>
+
+            <!-- <div class="flex go-back-1">
+            <div>
+                <ion-icon name="chevron-back" class="w-h-heading-back-icon-2"></ion-icon>
+            </div>
+            <div>
+                Go back
+            </div>
+        </div> -->
+
+            <!-- <div class="apple-l-bottom">
+            <ion-icon name="logo-apple"></ion-icon>
+        </div> -->
+
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script>
+        var currentElement = 1;
+
+        function hideEl(el) {
+            $("#" + el).hide();
+        }
+
+        function showEl(el) {
+            $("#" + el).show();
+        }
+
+        hideEl("layoutTwo");
+        hideEl("layoutThree");
+
+        showL1();
+
+        function showL1() {
+            $("#layoutTwo").animate({
+                bottom: -800
+            }, 320);
+            $("#layoutThree").animate({
+                bottom: -800
+            }, 320);
+            $("#layoutOne").delay(320).show().animate({
+                bottom: 10
+            }, 320);
+        }
+
+        function showL2() {
+            $("#layoutTwo").delay(320).show().animate({
+                bottom: 10
+            }, 320);
+            $("#layoutThree").animate({
+                bottom: -800
+
+            }, 320);
+            $("#layoutOne").animate({
+                bottom: -400
+            }, 320);
+        }
+
+        function showL3() {
+            $("#layoutTwo").animate({
+                bottom: -800
+            }, 320);
+            $("#layoutThree").delay(320).show().animate({
+                bottom: 10
+
+            }, 320);
+            $("#layoutOne").animate({
+                bottom: -400
+            }, 320);
+        }
+
+        $(".showL1").on("click", function () {
+            showL1();
+        });
+
+        $(".showL2").on("click", function () {
+            showL2();
+        });
+
+        $(".showL3").on("click", function () {
+            showL3();
+        });
+    </script>
+</body>
+
+</html>
